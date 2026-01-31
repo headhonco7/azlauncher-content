@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+
+  "branding": {
+    "appTitle": "AzLauncher",
+    "logoUrl": null
+  },
+
+  "background": {
+    "type": "image",
+    "url": null
+  },
+
+  "topRight": {
+    "clock": { "enabled": true, "format24h": true },
+    "weather": { "enabled": true, "mode": "static_text", "text": "Sunny • 28°C" }
+  },
+
+  "hero": {
+    "enabled": true,
+    "autoSlide": true,
+    "intervalMs": 8000,
+    "items": []
+  },
+
+  "roomLabel": {
+    "enabled": true,
+    "prefix": "ROOM",
+    "source": "device_name",
+    "fallbackSource": "build_model"
+  },
+
+  "contact": {
+    "enabled": true,
+    "whatsappFoText": "WhatsApp FO",
+    "whatsappNumber": "+62812XXXXXXX",
+    "socialText": "Akun Sosmed",
+    "socialHandle": "@guesthouse"
+  },
+
+  "wifiCard": {
+    "enabled": true,
+    "title": "WiFi",
+    "ssid": "AZ-GUEST",
+    "password": "az12345",
+    "encryption": "WPA",
+    "showQr": true
+  },
+
+  "appsRow": {
+    "enabled": true,
+    "title": "Apps",
+    "items": [
+      { "id": "youtube", "label": "YouTube", "packageName": "com.google.android.youtube.tv", "iconUrl": null },
+      { "id": "netflix", "label": "Netflix", "packageName": "com.netflix.ninja", "iconUrl": null },
+      { "id": "iptv1", "label": "Live TV 1", "packageName": "__IPTV1_PACKAGE__", "iconUrl": null },
+      { "id": "iptv2", "label": "Live TV 2", "packageName": "__IPTV2_PACKAGE__", "iconUrl": null }
+    ]
+  },
+
+  "runningText": {
+    "enabled": true,
+    "text": "Selamat datang • Check-out pukul 12.00 • Hubungi FO via WhatsApp"
+  }
+}
