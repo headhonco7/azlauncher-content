@@ -3,24 +3,50 @@
 
   "branding": {
     "appTitle": "AzLauncher",
-    "logoUrl": null
+    "logoUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/branding/logo.png"
   },
 
   "background": {
     "type": "image",
-    "url": null
+    "url": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/background/wallpaper.jpg"
   },
 
   "topRight": {
-    "clock": { "enabled": true, "format24h": true },
-    "weather": { "enabled": true, "mode": "static_text", "text": "Sunny • 28°C" }
+    "clock": {
+      "enabled": true,
+      "format24h": true
+    },
+    "weather": {
+      "enabled": false,
+      "mode": "static_text",
+      "text": ""
+    }
   },
 
   "hero": {
     "enabled": true,
     "autoSlide": true,
     "intervalMs": 8000,
-    "items": []
+    "items": [
+      {
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_01.jpg",
+        "action": {
+          "type": "none"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_02.jpg",
+        "action": {
+          "type": "none"
+        }
+      },
+      {
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_03.jpg",
+        "action": {
+          "type": "none"
+        }
+      }
+    ]
   },
 
   "roomLabel": {
@@ -34,15 +60,15 @@
     "enabled": true,
     "whatsappFoText": "WhatsApp FO",
     "whatsappNumber": "+62812XXXXXXX",
-    "socialText": "Akun Sosmed",
+    "socialText": "Instagram",
     "socialHandle": "@guesthouse"
   },
 
   "wifiCard": {
     "enabled": true,
     "title": "WiFi",
-    "ssid": "AZ-GUEST",
-    "password": "az12345",
+    "ssid": "GUEST-HOUSE",
+    "password": "guest1234",
     "encryption": "WPA",
     "showQr": true
   },
@@ -51,15 +77,41 @@
     "enabled": true,
     "title": "Apps",
     "items": [
-      { "id": "youtube", "label": "YouTube", "packageName": "com.google.android.youtube.tv", "iconUrl": null },
-      { "id": "netflix", "label": "Netflix", "packageName": "com.netflix.ninja", "iconUrl": null },
-      { "id": "iptv1", "label": "Live TV 1", "packageName": "__IPTV1_PACKAGE__", "iconUrl": null },
-      { "id": "iptv2", "label": "Live TV 2", "packageName": "__IPTV2_PACKAGE__", "iconUrl": null }
+      {
+        "id": "netflix",
+        "label": "Netflix",
+        "packageName": "com.netflix.ninja",
+        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/netflix.png"
+      },
+      {
+        "id": "youtube",
+        "label": "YouTube",
+        "packageName": "com.google.android.youtube.tv",
+        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/youtube.png"
+      },
+      {
+        "id": "iptv",
+        "label": "IPTV",
+        "packageName": "__IPTV_1__",
+        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/iptv_1.png"
+      },
+      {
+        "id": "youtube_kids",
+        "label": "YouTube Kids",
+        "packageName": "com.google.android.apps.youtube.kids",
+        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/youtube_kids.png"
+      },
+      {
+        "id": "cast",
+        "label": "Cast",
+        "packageName": "com.google.android.gms.cast",
+        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/cast.png"
+      }
     ]
   },
 
   "runningText": {
     "enabled": true,
-    "text": "Selamat datang • Check-out pukul 12.00 • Hubungi FO via WhatsApp"
+    "text": "Selamat datang • Check-out pukul 12.00 • Hubungi Front Office via WhatsApp"
   }
 }
