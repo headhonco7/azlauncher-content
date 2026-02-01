@@ -59,7 +59,7 @@
   "contact": {
     "enabled": true,
     "whatsappFoText": "WhatsApp FO",
-    "whatsappNumber": "+62812XXXXXXX",
+    "whatsappNumber": "085122000590",
     "socialText": "Instagram",
     "socialHandle": "@guesthouse"
   },
@@ -67,8 +67,8 @@
   "wifiCard": {
     "enabled": true,
     "title": "WiFi",
-    "ssid": "GUEST-HOUSE",
-    "password": "guest1234",
+    "ssid": "De AZKA WiFi",
+    "password": "hurufkecilsemua",
     "encryption": "WPA",
     "showQr": true
   },
