@@ -1,117 +1,39 @@
 {
   "schemaVersion": 1,
 
-  "branding": {
-    "appTitle": "AzLauncher",
-    "logoUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/branding/logo.png"
-  },
-
   "background": {
-    "type": "image",
-    "url": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/background/wallpaper.jpg"
-  },
-
-  "topRight": {
-    "clock": {
-      "enabled": true,
-      "format24h": true
-    },
-    "weather": {
-      "enabled": false,
-      "mode": "static_text",
-      "text": ""
-    }
-  },
-
-  "hero": {
-    "enabled": true,
-    "autoSlide": true,
-    "intervalMs": 8000,
-    "items": [
-      {
-        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_01.jpg",
-        "action": {
-          "type": "none"
-        }
-      },
-      {
-        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_02.jpg",
-        "action": {
-          "type": "none"
-        }
-      },
-      {
-        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_03.jpg",
-        "action": {
-          "type": "none"
-        }
-      }
-    ]
-  },
-
-  "roomLabel": {
-    "enabled": true,
-    "prefix": "ROOM",
-    "source": "device_name",
-    "fallbackSource": "build_model"
-  },
-
-  "contact": {
-    "enabled": true,
-    "whatsappFoText": "WhatsApp FO",
-    "whatsappNumber": "085122000590",
-    "socialText": "Instagram",
-    "socialHandle": "@guesthouse"
+    "url": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/wallpaper/wallpaper.jpg"
   },
 
   "wifiCard": {
-    "enabled": true,
-    "title": "WiFi",
-    "ssid": "De AZKA WiFi",
-    "password": "hurufkecilsemua",
-    "encryption": "WPA",
-    "showQr": true
+    "ssid": "NamaWifiKamu",
+    "password": "PasswordWifiKamu"
   },
 
-  "appsRow": {
-    "enabled": true,
-    "title": "Apps",
+  "hero": {
     "items": [
       {
-        "id": "netflix",
-        "label": "Netflix",
-        "packageName": "com.netflix.ninja",
-        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/netflix.png"
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_01.jpg",
+        "title": "Buffet Breakfast",
+        "subtitle": "Tersedia mulai pukul",
+        "note": "07:00 s/d 10:00"
       },
       {
-        "id": "youtube",
-        "label": "YouTube",
-        "packageName": "com.google.android.youtube.tv",
-        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/youtube.png"
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_02.jpg",
+        "title": "Room Service",
+        "subtitle": "Order via WhatsApp",
+        "note": "08:00 s/d 22:00"
       },
       {
-        "id": "iptv",
-        "label": "IPTV",
-        "packageName": "__IPTV_1__",
-        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/iptv_1.png"
-      },
-      {
-        "id": "youtube_kids",
-        "label": "YouTube Kids",
-        "packageName": "com.google.android.apps.youtube.kids",
-        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/youtube_kids.png"
-      },
-      {
-        "id": "cast",
-        "label": "Cast",
-        "packageName": "com.google.android.gms.cast",
-        "iconUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/apps/cast.png"
+        "imageUrl": "https://raw.githubusercontent.com/headhonco7/azlauncher-content/main/hero/hero_03.jpg",
+        "title": "Check-out",
+        "subtitle": "Waktu check-out",
+        "note": "Pukul 12:00"
       }
     ]
   },
 
   "runningText": {
-    "enabled": true,
-    "text": "Selamat datang • Check-out pukul 12.00 • Hubungi Front Office via WhatsApp"
+    "text": "• Check-out pukul 12.00  • Water refill tersedia di lobby  • Butuh laundry? Hubungi FO via WhatsApp"
   }
 }
